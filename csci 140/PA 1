@@ -1,0 +1,30 @@
+/*  Program:  CSCI 140  
+    Author: Vincent Chang           
+    Class:  CSCI 140    
+    Date:  8/29/2022     
+    Description: Exercise 7
+    I certify that the code below is my own work.
+    Exception(s): N/A
+*/
+#include <iostream>
+#include <iostream>
+#include <iomanip>              
+#include <cmath>  
+using namespace std;
+double num;
+double hour,rem;
+int main()
+{
+        cout << "Author: Vincent Chang" << endl;
+        
+        cin>>num;
+        if (num <60){
+            cout<<num<< " minutes is less than an hour";
+           
+        }
+            else {rem= num/60.0-floor(num/60.0);cout << num<<" minutes is "<<floor(num/60.0)<<" hour"<<" and "<<rem*60<<" minutes"<<endl;
+            
+        }
+       
+    return 0;
+}
